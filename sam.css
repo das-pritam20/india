@@ -55,17 +55,17 @@ header{
 
 .s1 { 
   color: #f1800f; text-shadow: 3px 3px 3px red;
- }
+}
 
 .s2
- { 
+{ 
   color: white; text-shadow: 3px 3px 3px black; 
 }
 
 .s3 
 { 
   color: green; text-shadow: 3px 3px 3px darkslategrey;
- }
+}
 
 .sam2 {
   display: flex;
@@ -121,16 +121,16 @@ header{
 
 .subtitle1 
 {
-   color: #FF9933; 
+  color: #FF9933; 
   }
 .subtitle2 
 {
-   color: white; text-shadow: 2px 2px 2px black; }
+  color: white; text-shadow: 2px 2px 2px black; }
 .subtitle3 {
-   color: green; 
+  color: green; 
   }
   .subtitle3 {
-   color: orangered; 
+  color: orangered; 
   }
 
 .sam5 {

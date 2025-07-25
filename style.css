@@ -14,7 +14,7 @@ header{
         border-radius: 20px;
         background-color: rgba(255, 228, 196, 0.696);
         transition: 1s ease-in-out;
-    }
+    }
 .nav{
         text-decoration: none;
         font-size: 30px;
@@ -23,7 +23,7 @@ header{
     .nav:hover{
         background-color: rgba(255, 228, 196, 0.436);
         border-radius: 50px;
-        height: 50px;
+      height: 50px;
     }
     #map{
       background-image: url('map\ of\ ind.jpg');
@@ -61,7 +61,7 @@ footer {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-       margin-top: -50px;
+      margin-top: -50px;
     }
 
     .footer-section {

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indian States and Their Iconic Foods</title>
+    <link rel="icon" href="kolkata logo.png">
+    
+    <style>
+        body {
+            background-image: url('food3.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+                header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+        background-color: rgba(255, 228, 196, 0.436);
+        border-radius: 20px;
+
+    }
+    header:hover{
+        border-radius: 20px;
+        background-color: rgba(255, 228, 196, 0.696);
+        transition: 1s ease-in-out;
+    }
+    .nav{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: cursive;
+    }
+    .nav:hover{
+        background-color: rgba(255, 228, 196, 0.436);
+        border-radius: 50px;
+        height: 50px;
+    }
+
+        .page-header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.85);
+            border-bottom: 3px solid black;
+        }
+
+        .page-header h1 {
+            font-size: 40px;
+            color: darkgreen;
+            margin-bottom: 10px;
+        }
+
+        .page-header h2 {
+            font-size: 24px;
+            color: #444;
+        }
+
+        .food-section {
+            border: 3px solid rgb(10, 10, 10);
+            padding: 12px;
+            background: linear-gradient(to bottom right, orange, white, green);
+            margin: 20px;
+            border-radius: 20px;
+        }
+
+        .food-section img {
+            border-top-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            border: 5px solid rgb(12, 12, 12);
+            max-width: 100%;
+            height: auto;
+        }
+
+        .food-content {
+            color: #000;
+            font-weight: bolder;
+        }
+
+        h2.heading {
+            text-align: center;
+            font-size: 28px;
+            color: darkred;
+            margin-bottom: 10px;
+        }
+
+        h3.subheading {
+            text-align: center;
+            font-size: 22px;
+            color: #000;
+            margin-top: -10px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        @media (min-width: 768px) {
+            .food-section {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+            }
+
+            .food-section.reverse {
+                flex-direction: row-reverse;
+            }
+
+            .food-content {
+                flex: 1;
+            }
+
+            .food-section img {
+                width: 300px;
+            }
+        }
+        footer {
+      background-color: #1e1e1e;
+      color: #f1f1f1;
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .footer-section {
+      flex: 1 1 250px;
+      margin: 10px;
+    }
+
+    .footer-section h3 {
+      border-bottom: 2px solid #f1f1f1;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+    }
+
+    .footer-section ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .footer-section ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-section ul li a {
+      color: #f1f1f1;
+      text-decoration: none;
+    }
+
+    .footer-section ul li a:hover {
+      color: #ff9800;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #f1f1f1;
+    }
+
+    .social-icons a:hover {
+      color: #ff9800;
+    }
+
+    .subscribe input[type="email"] {
+      padding: 8px;
+      width: 70%;
+      margin-right: 5px;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .subscribe button {
+      padding: 8px 15px;
+      background-color: #ff9800;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .copyright {
+      text-align: center;
+      margin-top: 30px;
+      border-top: 1px solid #555;
+      padding-top: 20px;
+      font-size: 14px;
+      color: #bbb;
+      width:100%;
+}
+
+    </style>
+</head>
+<body>
+  <header id="top">
+        <div>
+            <img src="logo2.png" style="width: 250px;">
+        </div>
+        <div style="display: flex; padding-right: 10px; height: 100px;">
+            <a href="index.html" class ="nav"style="padding: 20px; letter-spacing: 3px; color: orange;">Home</a>
+            <a href="history.html" class ="nav"style="padding: 20px; letter-spacing: 3px; color: orange;">History</a>
+            <a href="revolitionaries.html" class ="nav"style="padding: 20px; letter-spacing: 3px; color: white;">Revolutionaries</a>
+            <a href="heritage.html.html" class ="nav"style="padding: 20px; letter-spacing: 3px; color: white;">Heritages</a>
+            <a href="food.html" class ="nav"style="padding: 20px; letter-spacing: 3px; color: green;">Food</a>
+            <a href="festival.html" class ="nav"style="padding: 20px; letter-spacing: 3px; color: green;">Festivals</a>
+        </div>
+    </header>
+    <div class="food-section">
+        <h2 class="heading">Delhi</h2>
+        <h3 class="subheading">Butter Chicken</h3>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/031/415/202/small_2x/top-view-tasty-food-chicken-tikka-plate-isolated-on-a-black-background-ai-generated-photo.jpg">
+        <p>Butter Chicken, also known as Murgh Makhani, is a signature dish of North India. Marinated chicken is grilled and cooked in a creamy, spiced tomato gravy. Served with naan or rice, it’s loved for its rich, buttery flavor and mild spices.</p>
+    </div>
+
+    <div class="food-section reverse">
+        <h2 class="heading">Maharashtra</h2>
+        <h3 class="subheading">Vada Pav</h3>
+        <img src="https://blog.swiggy.com/wp-content/uploads/2024/11/Image-1_mumbai-vada-pav-1024x538.png">
+        <div class="food-content">
+            <p>Vada Pav, the "Indian burger," is a spicy potato fritter in a bread bun, served with tangy chutneys and dry garlic powder. A street food staple across Mumbai, it's fast, flavorful, and a cultural icon in Maharashtra.</p>
+        </div>
+    </div>
+
+    <div class="food-section">
+        <h2 class="heading">Odisha</h2>
+        <h3 class="subheading">Pakhala Bhata</h3>
+        <img src="https://www.culturebook.in/wp-content/uploads/2024/10/Pakhala-Bhata.jpg">
+        <div class="food-content">
+            <p>Pakhala is fermented rice soaked in water, often eaten with curd, green chilies, and fried vegetables. A summer staple in Odisha, it’s known for its cooling effect and digestive benefits. Celebrated every year on "Pakhala Dibasa."</p>
+        </div>
+    </div>
+
+    <div class="food-section reverse">
+        <h2 class="heading">Bihar</h2>
+        <h3 class="subheading">Litti Chokha</h3>
+        <img src="https://thumbs.dreamstime.com/b/litti-chokha-liti-choka-stuffed-chana-sattu-drenched-desi-ghee-regional-food-bihar-jharkhand-uttar-pradesh-216892403.jpg">
+        <div class="food-content">
+            <p>Litti Chokha is a wholesome meal with wheat dough balls filled with roasted gram flour, served with mashed spiced vegetables. Baked over fire or in ghee, it reflects the earthy taste of Bihari cuisine.</p>
+        </div>
+    </div>
+
+    <div class="food-section">
+        <h2 class="heading">Telangana</h2>
+        <h3 class="subheading">Hyderabadi Biryani</h3>
+        <img src="https://static.wixstatic.com/media/91e241_6db3df8f30c5445da943a06860551939~mv2.jpg/v1/fill/w_568,h_378,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/91e241_6db3df8f30c5445da943a06860551939~mv2.jpg">
+        <p>Hyderabadi Biryani is slow-cooked using the "dum" method, with layers of saffron-flavored rice and marinated meat. A royal dish from the Nizams' kitchens, it’s rich in spices and often served with raita or salan.</p>
+    </div>
+
+    <div class="food-section reverse">
+        <h2 class="heading">Punjab</h2>
+        <h3 class="subheading">Chole Bhature</h3>
+        <img src="https://sitaramdiwanchand.com/blog/wp-content/uploads/2024/04/Image-2-5-1024x591.webp">
+        <div class="food-content">
+            <p>Chole Bhature is a spicy chickpea curry paired with fluffy deep-fried bread. Popular across Punjab and Delhi, it's a hearty and indulgent meal often enjoyed with onions, pickles, and curd.</p>
+        </div>
+    </div>
+
+    <div class="food-section">
+        <h2 class="heading">Tamil Nadu</h2>
+        <h3 class="subheading">Masala Dosa</h3>
+        <img src="https://media.istockphoto.com/id/1024558380/photo/group-of-south-indian-food-like-masala-dosa-uttapam-idli-idly-wada-vada-sambar-appam-semolina.jpg?s=612x612&w=0&k=20&c=cNol7HXELvV0UmGbdvOd-cG6oZvfb9ApLvJ96mF650s=">
+        <p>Dosa is a crispy crepe made from fermented rice and lentil batter, usually stuffed with spicy mashed potatoes (masala dosa). Served with coconut chutney and sambar, it’s a staple of South Indian cuisine.</p>
+    </div>
+
+    <div class="food-section reverse">
+        <h2 class="heading">Rajasthan</h2>
+        <h3 class="subheading">Dal Baati Churma</h3>
+        <img src="https://images.picxy.com/cache/2021/1/17/3fe967b0d6b79938f18d80abdec54435.webp">
+        <div class="food-content">
+            <p>Dal Baati Churma is a Rajasthani trio: spicy lentils, baked wheat balls soaked in ghee, and sweet crushed baatis. A royal, filling dish that reflects the flavors of Rajasthan’s desert tradition.</p>
+        </div>
+    </div>
+
+    <div class="food-section">
+        <h2 class="heading">Gujarat</h2>
+        <h3 class="subheading">Dhokla</h3>
+        <img src="https://thumbs.dreamstime.com/b/capture-flavor-gujarati-dhokla-delicious-indian-snack-lowlight-photography-tips-indulge-irresistible-aroma-taste-377202462.jpg">
+        <p>Dhokla is a steamed savory cake made from fermented gram flour. Soft and spongy, it’s tempered with mustard seeds and garnished with coriander and coconut. Served with chutneys, it's a healthy and beloved snack.</p>
+    </div>
+
+    <div class="food-section reverse">
+        <h2 class="heading">West Bengal</h2>
+        <h3 class="subheading">Ilish Bhapa</h3>
+        <img src="https://rumkisgoldenspoon.com/wp-content/uploads/2021/08/Shorshe-ilish.jpg">
+        <div class="food-content">
+            <p>Ilish Bhapa is a Bengali delicacy made with hilsa fish steamed in a mustard paste. Rich, aromatic, and slightly pungent, it’s best enjoyed with plain rice—especially during the monsoon season.</p>
+        </div>
+    </div>
+    <footer>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank">Solar System</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Earth" target="_blank">Earth</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Aisa" target="_blank">Aisa</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/India" target="_blank">India</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contact Info</h3>
+        <p>Email: praveenydv8112@.gmail</p>
+        <p>Phone:+918112887641</p>
+        <p>Location: Hyderabad,India</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/indiacom/">🌐 Facebook</a><br>
+          <a href="https://www.instagram.com/india/">📸 Instagram</a><br>
+          <a href="https://x.com/governmentindia?lang=en">🐦 Twitter</a><br>
+          <a href="https://www.youtube.com/@SansadTV">▶ YouTube</a>
+        </div>
+      </div>
+
+      <div class="footer-section subscribe">
+        <h3>Subscribe</h3>
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2025 Historical place of India. All Rights Reserved.</p>
+        <p>Designed & Developed by Praveen Kumar Yadav</p>
+      </div>
+</footer>
+</body>
+</html>

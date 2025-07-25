@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indian States and Their Iconic Foods</title>
+    <link rel="icon" href="kolkata logo.png">
+    
+    <style>
+        body {
+            background-image: url('food3.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+        background-color: rgba(255, 228, 196, 0.436);
+        border-radius: 20px;
+
+    }
+    header:hover{
+        border-radius: 20px;
+        background-color: rgba(255, 228, 196, 0.696);
+        transition: 1s ease-in-out;
+    }
+    .nav{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: cursive;
+    }
+    .nav:hover{
+        background-color: rgba(255, 228, 196, 0.436);
+        border-radius: 50px;
+        height: 50px;
+    }
+
+
+        .page-header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.85);
+            border-bottom: 3px solid black;
+        }
+
+        .page-header h1 {
+            font-size: 40px;
+            color: darkgreen;
+            margin-bottom: 10px;
+        }
+
+        .page-header h2 {
+            font-size: 24px;
+            color: #444;
+        }
+
+        .food-section {
+            border: 3px solid rgb(10, 10, 10);
+            padding: 12px;
+            background: linear-gradient(to bottom right, orange, white, green);
+            margin: 20px;
+            border-radius: 20px;
+        }
+
+        .food-section img {
+            border-top-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            border: 5px solid rgb(12, 12, 12);
+            max-width: 100%;
+            height: auto;
+        }
+
+        .food-content {
+            color: #000;
+            font-weight: bolder;
+        }
+
+        h2.heading {
+            text-align: center;
+            font-size: 28px;
+            color: darkred;
+            margin-bottom: 10px;
+        }
+
+        h3.subheading {
+            text-align: center;
+            font-size: 22px;
+            color: #000;
+            margin-top: -10px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        @media (min-width: 768px) {
+            .food-section {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+            }
+
+            .food-section.reverse {
+                flex-direction: row-reverse;
+            }
+
+            .food-content {
+                flex: 1;
+            }
+
+            .food-section img {
+                width: 300px;
+            }
+        }
+        footer {
+      background-color: #1e1e1e;
+      color: #f1f1f1;
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .footer-section {
+      flex: 1 1 250px;
+      margin: 10px;
+    }
+
+    .footer-section h3 {
+      border-bottom: 2px solid #f1f1f1;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+    }
+
+    .footer-section ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .footer-section ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-section ul li a {
+      color: #f1f1f1;
+      text-decoration: none;
+    }
+
+    .footer-section ul li a:hover {
+      color: #ff9800;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #f1f1f1;
+    }
+
+    .social-icons a:hover {
+      color: #ff9800;
+    }
+
+    .subscribe input[type="email"] {
+      padding: 8px;
+      width: 70%;
+      margin-right: 5px;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .subscribe button {
+      padding: 8px 15px;
+      background-color: #ff9800;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .copyright {
+      text-align: center;
+      margin-top: 30px;
+      border-top: 1px solid #555;
+      padding-top: 20px;
+      font-size: 14px;
+      color: #bbb;
+      width:100%;
+}
+
+    </style>
+</head>
+<body>
+  <header id="top">
+        <div>
+            <img src="logo2.png" style="width: 250px;">
+        </div>
+        <div style="display: flex; padding-right: 10px; height: 100px;">
+            <a href="index.html" class ="nav"style="padding: 20px; letter-spacing: 3px; color: orange;">Home</a>
+            <a href="history.html" class ="nav"style="padding: 20px; letter-spacing: 3px; color: orange;">History</a>
+            <a href="revolitionaries.html" class ="nav"style="padding: 20px; letter-spacing: 3px; color: white;">Revolutionaries</a>
+            <a href="heritage.html.html" class ="nav"style="padding: 20px; letter-spacing: 3px; color: white;">Heritages</a>
+            <a href="food.html" class ="nav"style="padding: 20px; letter-spacing: 3px; color: green;">Food</a>
+            <a href="festival.html" class ="nav"style="padding: 20px; letter-spacing: 3px; color: green;">Festivals</a>
+        </div>
+    </header>
+    <div class="food-section">
+        <h2 class="heading">Andhra Pradesh</h2>
+        <h3 class="subheading">Bonalu</h3>
+        <img src="https://pragyata.com/wp-content/uploads/2025/06/Bathukamma-festival-1024x683.jpg">
+        <p><b>Bonalu is a vibrant and traditional Hindu festival celebrated predominantly in the Telangana region, including parts of Andhra Pradesh. Dedicated to Goddess Mahakali, the festival usually takes place in the month of Ashada (July–August). Women play a central role in the celebrations by carrying decorated pots (called "Bonam") filled with cooked rice, jaggery, curd, and neem leaves, which are offered to the goddess as a symbol of gratitude and devotion. The festival is marked by colorful processions, folk music, dances like Pothuraju (a male dancer believed to be the goddess's brother), and elaborate rituals at local temples. Bonalu reflects the rich cultural heritage and deep-rooted spiritual beliefs of the people, symbolizing their faith in divine protection and prosperity.</b>
+     </p>
+    </div>
+
+    <div class="food-section reverse">
+        <h2 class="heading">Arunachal Pradesh</h2>
+        <h3 class="subheading">Dree Festival</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODdYbixA1Sx8GgXXs_LV7Ada-RQMPmd-hPg&s">
+        <div class="food-content">
+            <p><b>The Dree Festival is an important agricultural festival celebrated by the Apatani tribe in the Ziro Valley of Arunachal Pradesh. Observed annually on July 5th, it is dedicated to appeasing five deities—Tamu, Metii, Danyi, Harniang, and Anii—who are believed to protect crops and ensure a good harvest. The festival begins with rituals and prayers to drive away pests, diseases, and natural calamities that may harm the crops. Traditional songs and dances are performed, and rice beer (apong) and local delicacies are shared among the community. The Dree Festival reflects the Apatani people's close connection to nature and their rich cultural heritage, emphasizing communal harmony, agricultural prosperity, and gratitude to the divine.</p></b>
+        </div>
+    </div>
+
+    <div class="food-section">
+        <h2 class="heading">Odisha</h2>
+        <h3 class="subheading">Rath Yatra </h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDLfNZviQDbBRFe_PVD0Ik2LBfrxivewA93Q&s">
+        <div class="food-content">
+            <p><b>Rath Yatra, also known as the Chariot Festival, is a major Hindu festival celebrated with great devotion and grandeur, especially in Puri, Odisha. It involves the ceremonial procession of Lord Jagannath, along with his siblings Lord Balabhadra and Goddess Subhadra, in massive, beautifully decorated wooden chariots. The deities are taken from the Jagannath Temple to the Gundicha Temple, where they stay for a few days before returning. Thousands of devotees gather to pull the chariots with ropes, believing it to be a sacred act that grants spiritual blessings. The festival symbolizes the journey of the gods among the people and represents themes of devotion, equality, and divine love. Rath Yatra is also celebrated in other parts of India, including Andhra Pradesh, spreading joy and religious fervor.</p></b>
+        </div>
+    </div>
+
+    <div class="food-section reverse">
+        <h2 class="heading">Punjab</h2>
+        <h3 class="subheading">Guru Nanak Jayanti</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS61xuMNf0Zpx6fKSMm_IO__A6WASect8PWig&s">
+        <div class="food-content">
+            <p><b>Guru Nanak Jayanti, also known as Gurpurab, is one of the most important festivals in Sikhism, celebrating the birth anniversary of Guru Nanak Dev Ji, the founder of the Sikh faith. It usually falls in October or November, depending on the lunar calendar. The celebration begins with Akhand Path (a continuous 48-hour reading of the Guru Granth Sahib) in Gurdwaras, followed by processions called Nagar Kirtans, where devotees sing hymns, perform martial arts (Gatka), and spread messages of peace and unity. On the day of the festival, special prayers, kirtans (devotional songs), and langars (community meals) are organized. Guru Nanak Jayanti is not only a religious occasion but also a reminder of Guru Nanak’s teachings on equality, compassion, humility, and devotion to one God.</b></p>
+        </div>
+    </div>
+
+    <div class="food-section">
+        <h2 class="heading">Rajasthan</h2>
+        <h3 class="subheading">Gangaur</h3>
+        <img src="https://rajasthantourism.co.in/wp-content/uploads/2023/08/Gangaur-festival.jpg">
+        <p><b>Gangaur is a traditional and colorful festival celebrated mainly in Rajasthan and some parts of Madhya Pradesh, Gujarat, and West Bengal. Dedicated to Goddess Gauri, the consort of Lord Shiva, the festival symbolizes marital happiness, fidelity, and the well-being of spouses. It usually takes place in the month of Chaitra (March–April) and is especially significant for women. Married women pray for the long life of their husbands, while unmarried girls worship Gauri to be blessed with a good life partner. Women dress in vibrant traditional attire, apply mehendi (henna), and carry beautifully decorated clay idols of Gauri in processions accompanied by folk music and dance. Gangaur reflects the deep cultural values and artistic traditions of Rajasthan, blending devotion with celebration.</b></p>
+    </div>
+
+    <div class="food-section reverse">
+        <h2 class="heading">West Bengal</h2>
+        <h3 class="subheading">Durga Puja</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRpViimCPbekWicmSULdg3FcENCVLnUDVKxw&s">
+        <div class="food-content">
+            <p>Durga Puja is one of the most important and grandly celebrated festivals in West Bengal and across many parts of India, especially in the eastern states. It honors Goddess Durga and marks her victory over the demon Mahishasura, symbolizing the triumph of good over evil. Celebrated in the Hindu month of Ashwin (September–October), the festival lasts for ten days, with the last five days—Shashthi to Dashami—being the most significant. Elaborate pandals (temporary structures) are set up with stunning idols of the goddess, and rituals, cultural performances, traditional dances, and feasting fill the air with joy and devotion. On Vijaya Dashami, the idols are immersed in rivers or lakes, signifying her return to Mount Kailash. Durga Puja is not just a religious event but a vibrant expression of art, culture, and community spirit, bringing people together in celebration and reverence.</p>
+        </div>
+    </div>
+
+    <div class="food-section">
+        <h2 class="heading"> Tamil Nadu</h2>
+        <h3 class="subheading">Pongal</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO3QH7AZ98IQ1BjubsC1-uoB-RG4nEviEAhQ&s">
+        <p><b>Pongal is a major harvest festival celebrated predominantly in Tamil Nadu and other parts of South India. It marks the beginning of the sun's northward journey (Uttarayanam) and is dedicated to the Sun God (Surya) as a gesture of gratitude for a bountiful harvest. Celebrated in mid-January, Pongal spans four days—Bhogi, Thai Pongal, Mattu Pongal, and Kaanum Pongal—each with its own significance and customs. On the main day, people cook a special dish called "Pongal" by boiling newly harvested rice with milk and jaggery in decorated clay pots, allowing it to overflow as a symbol of prosperity. Houses are cleaned and adorned with kolam (rangoli), and people wear traditional clothes, offer prayers, and share festive meals. Pongal reflects the deep agricultural roots and cultural richness of Tamil society, celebrating nature, hard work, and family bonds.</b></p>
+    </div>
+
+    <div class="food-section reverse">
+        <h2 class="heading">Uttarakhand</h2>
+        <h3 class="subheading">Kumbh Mela </h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXz3golAm6GNjeYnzF1h3nWShzcHp5-1bzrQ&s">
+        <div class="food-content">
+            <p>Kumbh Mela is one of the largest and most sacred religious gatherings in the world, held in India at four pilgrimage sites—Prayagraj, Haridwar, Nashik, and Ujjain—in a rotating cycle every 12 years. The festival is based on ancient Hindu beliefs and is associated with the mythological story of the Samudra Manthan (churning of the ocean), during which drops of amrit (nectar of immortality) fell at these four places. Millions of devotees, including saints, sadhus, and pilgrims, gather to take a holy dip in the sacred rivers like the Ganges and Yamuna, believing it will cleanse them of sins and lead to salvation. The Kumbh Mela is marked by religious discourses, devotional singing, processions of Akharas (monastic orders), and massive spiritual congregation. It is not just a festival but a profound expression of faith, tradition, and unity, attracting global attention for its scale and spiritual significance.
+    </p>
+        </div>
+    </div>
+
+    <div class="food-section">
+        <h2 class="heading">Uttar Pradesh</h2>
+        <h3 class="subheading">Holi</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEQvEQxe7pweUZkyVD7ADu1ZP2utcoCmD5Ww&s">
+        <p><b>Holi, often called the Festival of Colors, is a joyful and vibrant Hindu festival celebrated across India, especially in the northern regions. It marks the arrival of spring and the victory of good over evil, rooted in the legend of Prahlad and Holika. The festival usually takes place in March, starting with Holika Dahan on the night before Holi, where bonfires are lit to symbolize the burning of evil. The next day, known as Rangwali Holi, people come together to play with colored powders, water balloons, and music, dancing in streets, homes, and open spaces. Special sweets like gujiya and drinks like thandai are shared among friends and family. Holi transcends social boundaries, bringing people of all ages and backgrounds together in celebration, spreading love, forgiveness, and unity through its colors and cheerful spirit.</b>
+</p>
+    </div>
+
+    <div class="food-section reverse">
+        <h2 class="heading">Maharashtra</h2>
+        <h3 class="subheading">Ganesh Chaturthi</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSBceFEmrnHSRgQ56F-slUVUW2S3iIyBuwXw&s">
+        <div class="food-content">
+            <p>Ganesh Chaturthi is a widely celebrated Hindu festival that marks the birth of Lord Ganesha, the elephant-headed god of wisdom, prosperity, and remover of obstacles. It usually falls in the month of Bhadrapada (August–September) and is especially grand in Maharashtra, Karnataka, Andhra Pradesh, and Tamil Nadu. The festival begins with the installation of beautifully crafted Ganesha idols in homes and public pandals (temporary shrines), accompanied by prayers, devotional songs, and offerings of sweets like modak, Lord Ganesha's favorite. The celebrations typically last for 10 days, ending with Ganesh Visarjan, where the idols are carried in colorful processions and immersed in rivers, lakes, or the sea. The festival promotes community bonding, environmental awareness, and devotion, blending faith with art, music, and cultural expression.</p>
+        </div>
+    </div>
+    <footer>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank">Solar System</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Earth" target="_blank">Earth</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Aisa" target="_blank">Aisa</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/India" target="_blank">India</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contact Info</h3>
+        <p>Email: praveenydv8112@.gmail</p>
+        <p>Phone:+918112887641</p>
+        <p>Location: Hyderabad,India</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/indiacom/">🌐 Facebook</a><br>
+          <a href="https://www.instagram.com/india/">📸 Instagram</a><br>
+          <a href="https://x.com/governmentindia?lang=en">🐦 Twitter</a><br>
+          <a href="https://www.youtube.com/@SansadTV">▶ YouTube</a>
+        </div>
+      </div>
+
+      <div class="footer-section subscribe">
+        <h3>Subscribe</h3>
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2025 Historical place of India. All Rights Reserved.</p>
+        <p>Designed & Developed by Praveen Kumar Yadav</p>
+      </div>
+</footer>
+</body>
+</html>
